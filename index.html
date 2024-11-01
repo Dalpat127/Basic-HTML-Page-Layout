@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML PageSteps</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+        .layout{
+            margin: 1rem;
+        }
+        .box{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .outer-box{
+            margin: 2rem;
+        }
+        .inner-box{
+            padding: 1rem;
+        }
+        h1{
+            text-align: center;
+            padding: 1rem;
+        }
+        .service{
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: rgba(223, 222, 221, 0.781);
+            padding: 2rem;
+        }
+        .info{
+            background-color: rgb(249, 232, 211);
+            padding: 2rem;
+        }
+        .cource{
+            display: flex;
+            background-color: rgb(249, 232, 211);
+            padding: 2rem;
+        }
+        p{
+            font-size: 1.3rem;
+        }
+        ul li{
+            font-size: 1.3rem;
+            margin: 0.7rem;
+        }
+        .info img{
+            height: 150px;
+            width: 300px;
+        }
+        .service img{
+            height: 300px;
+            width: 300px;
+            margin-top: 3rem;
+        }
+        .cource img{
+            height: 300px;
+            width: 300px;
+            margin: 2rem 5rem 0 0;
+        }
+        @media (max-width:800px) {
+            .info{
+                display: block;
+                margin: 10px;
+            }
+            .cource{
+                display: block;
+                margin: 10px;
+            }
+            .service{
+                display: block;
+                margin: 10px;
+            }
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="layout">
+        <h1 style="color: brown;">Cognifyz Technology</h1>
+        <div class="box info">
+            <div class="outer-box">
+                <img src="img/cognifyz.png" alt="This is image">
+            </div>
+            <div class="inner-box">
+                <p>Cognifyz Technologies leads the tech sector, delivering refined software solutions with advanced AI,
+                    ML, and data analytics tools. Our AI chatbox platform redefines customer support, seamlessly
+                    integrating across websites, social media, and messaging apps. Pioneering ML-based solutions enable
+                    real-time decision-making for predictive analytics, fraud detection, and recommendations.<br><br>
+                    Furthermore, our comprehensive suite extends to web solutions, digital marketing, and app
+                    development. With an unwavering commitment to excellence, professionalism, and innovation, Cognifyz
+                    Technologies ensures clients confidently navigate the ever-evolving tech landscape. </p>
+            </div>
+        </div>
+    </div>
+    <div class="layout">
+        <h1 style="color:rgb(235, 101, 29);">Services</h1>
+        <div class="box service">
+            <div>
+                <img src="img/service.png" alt="This is image">
+            </div>
+            <div class="inner-box">
+                <p> Cognifyz Technologies give the following services: </p><br>
+                <ul>
+                    <li>Data & Analytics</li>
+                    <li>AI/ML Automation</li>
+                    <li>Internet of Things(IOT)</li>
+                    <li>Software Development</li>
+                    <li>App Development</li>
+                    <li>Graphic Designing</li>
+                    <li>Digital Marketing</li>
+                    <li>Consulting Services</li>
+                    <li>E-Commerce Solutions</li>
+                    <li>WordPress Solutions</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="layout">
+        <h1 style="color: green;">Courses</h1>
+        <div class="box cource">
+            <div>
+                <img src="img/cource.png" alt="This is image">
+            </div>
+            <div class="inner-box">
+                <p>Cognifyz Technologies provides the following courses:</p><br>
+                <ul>
+                    <li>PHP</li>
+                    <li>Java course</li>
+                    <li>ASP.NET MVC</li>
+                    <li>ASP.NET Training</li>
+                    <li>Python Certification</li>
+                    <li>Full Stack Development</li>
+                    <li>C, C++ Training</li>
+                    <li>Angular Training</li>
+                    <li>Front End Development</li>
+                    <li>Flutter Mastery</li>
+                    <li>WordPress Training</li>
+                    <li>React Mastery</li>
+                    <li>Salesforce Training</li>
+                    <li>Web Development</li>
+                    <li>NodeJs Training</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
